@@ -5,7 +5,7 @@ import Hero from './components/hero/Hero';
 import Ability from './components/ability/Ability';
 import About from './components/about/About';
 import Succes from './components/succes/Succes';
-import Clients from './components/testimonal/Testimonal';
+import Testimonal from './components/testimonal/Testimonal';
 import Blog from './components/blog/Blog';
 import Signup from './components/signup/Signup';
 import Footer from './components/footer/Footer';
@@ -17,7 +17,7 @@ function App() {
       <Ability/>
       <About/>
       <Succes/>
-      <Clients/>
+      <Testimonal/>
       <Blog/>
       <Signup/>
       <Footer/>

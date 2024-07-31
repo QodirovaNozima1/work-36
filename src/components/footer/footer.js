@@ -5,6 +5,8 @@ import { FaFacebook } from "react-icons/fa";
 import { AiFillLinkedin } from "react-icons/ai";
 import { IoLogoInstagram } from "react-icons/io5";
 import { FaTelegram } from "react-icons/fa";
+
+
 function Footer (){
     return(
         <div className="footer">

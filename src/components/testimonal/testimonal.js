@@ -1,6 +1,6 @@
 import React from "react";
 import "./Testimonal.css"
-function Clients(){
+function Testimonal(){
     return(
         <div className="testimonal">
             <div className="container">
@@ -32,4 +32,4 @@ function Clients(){
         </div>
     )
 }
-export default Clients
+export default Testimonal
