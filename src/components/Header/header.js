@@ -4,8 +4,8 @@ import rasm from "../../assets/Screenshot_3 [Recovered] 1.png"
 
 function Header() {
     return(
+    <header className="header">
         <div className="container">
-            <header className="header">
                 <nav className="navbar">
                     <div className="navbar__logo">
                         <img src={rasm} alt="" />
@@ -23,8 +23,8 @@ function Header() {
                         <button className="navbar__btn">Sign up</button>
                     </div>
                 </nav>
-            </header>
-        </div>
+            </div>
+    </header>
     )
 }
 export default Header
