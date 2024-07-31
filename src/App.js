@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './components/header/header';
+import Header from './components/Header/header';
 import Hero from './components/hero/hero';
 import Service from './components/service/service';
 import About from './components/about/about';
