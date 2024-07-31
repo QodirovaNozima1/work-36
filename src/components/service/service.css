@@ -1,0 +1,38 @@
+.service{
+    margin-top: 100px;
+}
+.service__title h2{
+    font-size: 42px;
+    font-weight: 500;
+}
+.service__box{
+    margin-top: 40px;
+    display: flex;
+    gap: 30px;
+}
+.service__card{
+    width: 370px;
+    height: 180px;
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    align-items: center;
+    border-radius: 60px 0px 60px 0px;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.14);
+    transition: .5s;
+}
+.service__card:hover{
+    color: white;
+    background: rgba(202, 168, 146, 1);
+}
+.card__desc{
+    width: 340px;
+}
+.card__title{
+    font-weight: 700;
+}
+.card__img{
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+

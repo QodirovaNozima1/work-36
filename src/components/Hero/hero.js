@@ -1,5 +1,6 @@
 import React from "react";
 import "./hero.css"
+import photo from "../../assets/Group 63 (1).png"
 
 function Hero() {
     return(
@@ -12,7 +13,10 @@ function Hero() {
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                            veniam, quis nostrud exercitation.</p>
-                        <button className="hero__btn">Sign up</button>
+                        <button className="hero__btn">Contact</button>
+                    </div>
+                    <div className="hero__photo">
+                        <img src={photo} alt="" />
                     </div>
                 </div>
             </div>

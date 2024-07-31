@@ -1,0 +1,39 @@
+.succes{
+    margin-top: 200px;
+}
+.succes__box{
+    display: flex;
+    gap: 20px;
+}
+.succes__number{
+    width: 50%;
+}
+.succes__number p{
+    font-size: 250px;
+    font-weight: 500;
+    color: rgba(202, 168, 146, 1);
+}
+.succes__number h2{
+     font-size: 50px;
+     font-weight: 500;
+}
+.succes__btn{
+    width: 97px;
+    height: 32px;
+    border-radius: 15px 0px 15px 0px;
+    background:rgba(55, 128, 107, 1);
+    border: none;
+    color: white;
+    transition: .4s;
+    margin-top: 40px;
+  }
+  .succes__btn:hover{
+    transform: scale(1.1);
+}
+.succes__img{
+    width: 50%;
+    img{
+        width: 100%;
+    }
+}
+  

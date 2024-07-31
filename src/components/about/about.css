@@ -1,20 +1,29 @@
-.hero{
-     margin-top: 94px;
+.about{
+    margin-top: 200px;
 }
-.hero__box{
+.about__wrapper{
     display: flex;
+    gap: 100px;
     align-items: center;
 }
-.hero__info{
+.about__img{
     width: 50%;
+    img{
+        width: 100%;
+    }
+}
+.about__desc{
+    width: 40%;
     display: flex;
-    gap: 23px;
     flex-direction: column;
+    gap: 20px;
 }
-.hero__info h2{
-    font-size: 72px;
+.about__desc h2{
+    font-size: 48px;
+    font-weight: 600;
 }
-.hero__btn{
+
+.about__btn{
     width: 97px;
     height: 32px;
     border-radius: 15px 0px 15px 0px;
@@ -23,13 +32,7 @@
     color: white;
     transition: .4s;
   }
-  .hero__btn:hover{
+  .about__btn:hover{
     transform: scale(1.1);
   }
   
-.hero__photo{
-    width: 50%;
-    img{
-        width: 100%;
-    }
-}
