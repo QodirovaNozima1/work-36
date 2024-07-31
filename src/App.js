@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header/header';
 import Hero from './components/Hero/hero';
-import Service from './components/Service/service';
+import Service from './components/Ability/ability';
 import About from './components/About/about';
 import Succes from './components/Succes/succes';
 import Clients from './components/Testimonal/testimonal';

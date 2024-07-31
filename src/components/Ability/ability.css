@@ -1,16 +1,16 @@
-.service{
+.ability{
     margin-top: 100px;
 }
-.service__title h2{
+.ability__title h2{
     font-size: 42px;
     font-weight: 500;
 }
-.service__box{
+.ability__box{
     margin-top: 40px;
     display: flex;
     gap: 30px;
 }
-.service__card{
+.ability__card{
     width: 370px;
     height: 180px;
     display: flex;
@@ -21,17 +21,17 @@
     box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.14);
     transition: .5s;
 }
-.service__card:hover{
+.ability__card:hover{
     color: white;
     background: rgba(202, 168, 146, 1);
 }
-.card__desc{
+.ability__desc{
     width: 340px;
 }
-.card__title{
+.ability__title{
     font-weight: 700;
 }
-.card__img{
+.ability__img{
     margin-bottom: 20px;
     margin-left: 10px;
 }
