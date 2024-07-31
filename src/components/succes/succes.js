@@ -1,5 +1,5 @@
 import React from "react";
-import "./succes.css"
+import "./Succes.css"
 import img from "../../assets/Group 78.png"
 function Succes() {
     return(

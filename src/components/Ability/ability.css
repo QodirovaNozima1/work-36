@@ -22,8 +22,11 @@
     transition: .5s;
 }
 .ability__card:hover{
-    color: white;
-    background: rgba(202, 168, 146, 1);
+    box-shadow: 10px 10px 7px rgb(189, 187, 187);
+    transform: translate(-10px, -10px);
+    cursor: pointer;
+    background: #CAA892;
+    color: #fff;
 }
 .ability__desc{
     width: 340px;

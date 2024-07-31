@@ -1,5 +1,5 @@
 import React from "react";
-import "./blog.css"
+import "./Blog.css"
 import img from "../../assets/Mask Group.png"
 import photo from"../../assets/Mask Group (1).png"
 

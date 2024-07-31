@@ -1,5 +1,5 @@
 import React from "react";
-import "./header.css"
+import "./Header.css"
 import rasm from "../../assets/Screenshot_3 [Recovered] 1.png"
 
 function Header() {

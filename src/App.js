@@ -1,20 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header/header';
-import Hero from './components/Hero/hero';
-import Service from './components/Ability/ability';
-import About from './components/About/about';
-import Succes from './components/Succes/succes';
-import Clients from './components/Testimonal/testimonal';
-import Blog from './components/Blog/blog';
-import Signup from './components/Signup/signup';
-import Footer from './components/Footer/footer';
+import Header from './components/header/Header';
+import Hero from './components/hero/Hero';
+import Ability from './components/ability/Ability';
+import About from './components/about/About';
+import Succes from './components/succes/Succes';
+import Clients from './components/testimonal/Testimonal';
+import Blog from './components/blog/Blog';
+import Signup from './components/signup/Signup';
+import Footer from './components/footer/Footer';
 function App() {
   return (
     <div className="App">
       <Header/>
       <Hero/>
-      <Service/>
+      <Ability/>
       <About/>
       <Succes/>
       <Clients/>

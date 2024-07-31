@@ -1,5 +1,5 @@
 import React from "react";
-import "./ability.css"
+import "./Ability.css"
 import image from "../../assets/sr.png"
 
 function Ability() {
